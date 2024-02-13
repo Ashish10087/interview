@@ -8,8 +8,8 @@ public class KeywordSuperThis  extends p{
 	
 	public void m1() {
 		System.out.println(p);
-		System.out.println(this.p);
-		System.out.println(super.p);
+		System.out.println(this.p);//"this" is keyword refers current class instance variable 
+		System.out.println(super.p);// "super" is keyword refers super class instance variable
 	}
 	
 	public static void main(String[] args) {
